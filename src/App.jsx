@@ -30,7 +30,7 @@ function App() {
           element: <Attendance />,
         },
         {
-          path: "/updateStudent/:id",
+          path: "/students/:id",
           element: <UpdateStudent />,
         },
       ],

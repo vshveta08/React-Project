@@ -56,7 +56,7 @@ export default function Records({ data }) {
                 <td className="px-6 py-3 ">{student.email}</td>
                 <td className="px-6 py-3 flex gap-1">
                   <NavLink
-                    to={`/updateStudent/${student.id}`}
+                    to={`/students/${student.id}`}
                     state={{
                       student: student,
                     }}
