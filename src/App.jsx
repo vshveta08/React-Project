@@ -1,8 +1,7 @@
 import AppLayout from "./components/layout/AppLayout";
 import Attendance from "./pages/Attendance";
+import Home from "./pages/Home";
 import Courses from "./pages/Courses";
-import Home from "./pages/home";
-import Student from "./components/StudentModal";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Students from "./pages/Students";
 import UpdateStudent from "./pages/UpdateStudent";
@@ -16,7 +15,7 @@ function App() {
       children: [
         {
           path: "/",
-          element: <Home />,
+          element: <Home /> ,
         },
         {
           path: "/students",
